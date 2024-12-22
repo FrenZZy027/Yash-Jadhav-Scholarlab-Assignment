@@ -68,34 +68,34 @@ public class AnimalQuizManager : MonoBehaviour
         {
             case QuizCategory.Flying:
                 Debug.Log("Sort animals into Flying or Non-Flying.");
-                if (displayTaskText != null) displayTaskText.text = "Sort animals into Flying or Non-Flying.";
-                if (redBucket != null) redBucketText.text = "Flying";
-                if (blueBucket != null) blueBucketText.text = "Non-Flying";
+                displayTaskText.text = "Sort animals into Flying or Non-Flying.";
+                redBucketText.text = "Flying";
+                blueBucketText.text = "Non-Flying";
 
                 break;
             case QuizCategory.Insect:
                 Debug.Log("Sort animals into Insect or Non-Insect.");
-                if (displayTaskText != null) displayTaskText.text = "Sort animals into Insect or Non-Insect.";
-                if (redBucket != null) redBucketText.text = "Insect";
-                if (blueBucket != null) blueBucketText.text = "Non-Insect";
+                displayTaskText.text = "Sort animals into Insect or Non-Insect.";
+                redBucketText.text = "Insect";
+                blueBucketText.text = "Non-Insect";
                 break;
             case QuizCategory.Diet:
                 Debug.Log("Sort animals into Omnivorous or Herbivorous.");
-                if (displayTaskText != null) displayTaskText.text = "Sort animals into Omnivorous or Herbivorous.";
-                if (redBucket != null) redBucketText.text = "Omnivorous";
-                if (blueBucket != null) blueBucketText.text = "Herbivorous";
+                displayTaskText.text = "Sort animals into Omnivorous or Herbivorous.";
+                redBucketText.text = "Omnivorous";
+                blueBucketText.text = "Herbivorous";
                 break;
             case QuizCategory.Social:
                 Debug.Log("Sort animals into Lives in Group or Solo.");
-                if (displayTaskText != null) displayTaskText.text = "Sort animals into Lives in Group or Solo.";
-                if (redBucket != null) redBucketText.text = "Group";
-                if (blueBucket != null) blueBucketText.text = "Solo";
+                displayTaskText.text = "Sort animals into Lives in Group or Solo.";
+                redBucketText.text = "Group";
+                blueBucketText.text = "Solo";
                 break;
             case QuizCategory.Reproduction:
                 Debug.Log("Sort animals into Lays Eggs or Gives Birth.");
-                if (displayTaskText != null) displayTaskText.text = "Sort animals into Lays Eggs or Gives Birth.";
-                if (redBucket != null) redBucketText.text = "Lays Eggs";
-                if (blueBucket != null) blueBucketText.text = "Gives Birth";
+                displayTaskText.text = "Sort animals into Lays Eggs or Gives Birth.";
+                redBucketText.text = "Lays Eggs";
+                blueBucketText.text = "Gives Birth";
                 break;
         }
     }
